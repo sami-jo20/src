@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="sys-prod-apiFlow" doc:id="d0cba575-4075-495c-9f3c-88f64062a7e7" >
+		<logger level="INFO" doc:name="Logger" doc:id="915ce24b-1776-4d9d-b681-1c8027c91708" message="#[payload]"/>
+	</flow>
+</mule>
